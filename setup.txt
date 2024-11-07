@@ -1,0 +1,13 @@
+pip install google 
+pip install --upgrade google-api-python-client
+pip install google-colab
+pip install setuptools
+git clone https://github.com/googlecolab/colabtools.git
+cd colabtools/
+python setup.py ins
+python setup.py install
+python setup.py install
+python setup.py bdist_wheel
+pip list
+pip list | grep colab 
+pip install nbformat
